@@ -1,0 +1,45 @@
+{
+  "version": "2.0.0",
+  "tasks": [
+    {
+      "label": "表格工具: 安装依赖",
+      "type": "shell",
+      "command": "${command:python.interpreterPath}",
+      "args": [
+        "-m",
+        "pip",
+        "install",
+        "-r",
+        "requirements.txt"
+      ],
+      "problemMatcher": []
+    },
+    {
+      "label": "表格工具: 启动 Streamlit",
+      "type": "shell",
+      "command": "${command:python.interpreterPath}",
+      "args": [
+        "-m",
+        "streamlit",
+        "run",
+        "app.py"
+      ],
+      "isBackground": true,
+      "problemMatcher": []
+    },
+    {
+      "label": "表格工具: 运行测试",
+      "type": "shell",
+      "command": "${command:python.interpreterPath}",
+      "args": [
+        "-m",
+        "unittest",
+        "discover",
+        "-s",
+        "tests",
+        "-v"
+      ],
+      "problemMatcher": []
+    }
+  ]
+}
