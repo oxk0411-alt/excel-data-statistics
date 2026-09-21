@@ -143,16 +143,6 @@ table_cleaner/
 
 ## 在线部署
 
-本项目已经准备好部署到 Streamlit Community Cloud。详细步骤见 [DEPLOYMENT.md](DEPLOYMENT.md)。
+本项目已经部署到 Streamlit Community Cloud。
+可通过 https://oxk-excel-data-statistics.streamlit.app 进行在线使用
 
-云端入口文件：
-
-```text
-app.py
-```
-
-依赖清单：
-
-```text
-requirements.txt
-```
