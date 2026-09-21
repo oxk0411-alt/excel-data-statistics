@@ -23,7 +23,7 @@ Community Cloud 会在仓库根目录执行应用，并从 `requirements.txt` �
 4. 选择 GitHub 仓库：
 
    ```text
-   excel表格数据统计可视化程序
+   excel-data-statistics
    ```
 
 5. 分支选择：
@@ -76,3 +76,4 @@ streamlit run app.py --server.headless=true
 ```
 
 功能代码共用 `app.py` 和 `table_cleaner/`，无需维护两个版本。
+
